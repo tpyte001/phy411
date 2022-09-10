@@ -22,3 +22,4 @@ m1 = np.array([[1.0,2.0],# be sure to use floats for accuracy
                [2.0,1.0]])
 print(m1[0,1])# index like a list
 print(m1)
+#done
