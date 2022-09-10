@@ -1,3 +1,4 @@
+# homework 1 phy411
 import numpy
 
 #print out n = 10,000 fibonacci number
