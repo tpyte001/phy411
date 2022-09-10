@@ -1,0 +1,17 @@
+you cant just log into git hub via cli
+you need to add a token
+to create a personal access token:
+you can do this from the website to get a token like this:
+
+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
+
+but you need to type it in everytime, so to avoid that use command:
+
+git config --global credential.helper cache
+
+to cache the next password and username given
+
+you may need to change or undo which you can by 
+
+git config --global --unset credential.helper
+
