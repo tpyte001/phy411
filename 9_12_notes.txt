@@ -1,0 +1,7 @@
+Physics 411
+9/12/2022 Notes
+Python Env Test
+- does matplotlib work on ubuntu   
+- is github CLI working okay
+- is numpy installed
+- is matplotlib installed
