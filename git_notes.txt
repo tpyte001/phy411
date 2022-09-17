@@ -1,0 +1,9 @@
+
+
+create a new branch, git pull, add, commit, git push, merge branches
+
+delte branch:
+git branch -d localbranchname
+git push origin --delete remoteBranchName
+
+
