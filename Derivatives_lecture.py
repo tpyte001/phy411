@@ -2,7 +2,8 @@ import numpy as np
 # limit definition of derivative
 # the derivative is the slope of the tangent line at a point x_0,f(x_0)
 # How do we numerically calculate the derivative of a function with a computer?
-
+# create a derivative, see what is the most accureate between
+# forward method, backwards method, or center method
 # define a function
 
 # central difference method:

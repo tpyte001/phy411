@@ -1,7 +1,7 @@
 #Finished Efield from lecture with a negative and a positive charge.
 import numpy as np
 #create a derivative, see what is the most accureate between
-# forward method, backwards method, or center method.
+# forward method, backwards method, or center method
 
 import matplotlib.pyplot as mpl
 
