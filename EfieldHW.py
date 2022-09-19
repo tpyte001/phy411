@@ -5,7 +5,7 @@ import matplotlib.pyplot as mpl
 xlist = np.arange(-5,5,0.1)
 ylist = np.arange(-5,5,0.1)
 i = 0
-q = 1
+q = 10.6
 k = 1
 Ex = np.zeros((100,100)) #len(xlist)
 Ey = np.zeros((100,100)) #len(ylist)

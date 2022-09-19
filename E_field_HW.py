@@ -1,14 +1,18 @@
-#xlist, ylist array from -10,10, 0.01
+#Finished Efield from lecture with a negative and a positive charge.
 import numpy as np
+#create a derivative, see what is the most accureate between
+# forward method, backwards method, or center method.
+
 import matplotlib.pyplot as mpl
 
 xlist = np.arange(-5,5,0.1)
 ylist = np.arange(-5,5,0.1)
-# xlist.size()
+# print(xlist.size())
+
 i = 0
 q = 10 ** -6
 k = 1
-Ex = np.zeros((100,100)) #xlist.size()
+Ex = np.zeros((100,100)) #xlist.size()  
 Ey = np.zeros((100,100)) #ylist.size()
 for x in xlist:
     j = 0
