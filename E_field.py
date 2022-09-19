@@ -1,4 +1,4 @@
-#xlist, ylist array from -10,10, 0.01
+# Original assignment from lecture 9/12/2022
 import numpy as np
 import matplotlib.pyplot as mpl
 
