@@ -17,8 +17,7 @@ Ey = np.zeros((100,100)) #ylist.size()
 for x in xlist:
     j = 0
     for y in ylist:   
-        Ex[j,i] = (-q * x/(np.sqrt(x**2+y**2)**3) +
-                   q * (x+1)/(np.sqrt((x+1)**2+(y+1)**2)**3))
+        Ex[j,i] = (-q * x/(np.sqrt(x**2+y**2)**3) + q * (x+1)/(np.sqrt((x+1)**2+(y+1)**2)**3))
         Ey[j,i] = (-q * y/(np.sqrt(x**2+y**2)**3) + q * (y+1)/(np.sqrt((x+1)**2+(y+1)**2)**3))
         j = j+1
     i = i+1

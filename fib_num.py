@@ -1,4 +1,4 @@
-# homework 1 phy411
+#homework 1 phy411
 import numpy
 
 # gives you specific Fibonocci number
@@ -17,12 +17,17 @@ def fib_seq(n):
         c = a + b
         fib.append(c)
     print(fib)
-    
-# check
-n = 100
-if fib_number(n) == fib_seq(n):
-    print("You can go to bed now.")
-else:
-    print("Keep trying.")
 
+# check
+# fib_seq(n)
+
+def fib_seq_while(n):
+    a = 0
+    b = 1
+    s = 1
+    while (s < 10,000):
+        print(s)
+        s = s + b
+        b = s
+        a = b
 

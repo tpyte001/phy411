@@ -17,11 +17,7 @@ def deriv_sin_bck(x,h=0.01):
     return(np.sin(x) - np.sin(x-h)) / h
 def deriv_sin_fun(x,h=0.01):
     return(np.sin(x+h)-f(x-h)) / 2h
-    
-    
-
-
-
+        
 print(deriv_sin(np.pi))
 print(deriv_sin(0))
 print(deriv_sin(np.pi/3))
