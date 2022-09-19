@@ -2,13 +2,16 @@
 import numpy as np
 import matplotlib.pyplot as mpl
 
-xlist = np.arange(-5,5,0.1)
-ylist = np.arange(-5,5,0.1)
+xlist = np.arange(-10,10,0.1)
+ylist = np.arange(-10,10,0.1)
+# to check size
+# print(ylist.size)
+
 i = 0
 q = 1
 k = 1
-Ex = np.zeros((100,100)) #len(xlist)
-Ey = np.zeros((100,100)) #len(ylist)
+Ex = np.zeros((200,200)) #len(xlist)
+Ey = np.zeros((200,200)) #len(ylist)
 for x in xlist:
     j = 0
     for y in ylist:   
